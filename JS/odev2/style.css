@@ -1,0 +1,25 @@
+ul.striped-list > li:nth-of-type(odd) {
+    background-color: #e9e9f9 ;
+}
+ul li.checked {
+    color: #000000;
+    text-decoration: line-through;
+    background-color: #89CFFD;
+    opacity: 0.5;
+  }
+ul li:nth-of-type(odd).checked{
+    background-color: #89CFFD;
+    opacity: 0.5;
+}
+#liveToast{
+    width:400px;
+    height:80px;
+    margin-left: 1110px; 
+    position: absolute; 
+    right: 10; 
+    top:0;
+}
+#todoinput:focus{
+    outline: none;
+    box-shadow: none
+}
